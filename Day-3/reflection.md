@@ -1,9 +1,3 @@
-
----
-
-### 🪞 `reflection.md`
-
-```md
 # 🌻 Day 3 Reflection
 
 ## ✅ What felt intuitive:
@@ -17,3 +11,4 @@
 ## 📌 Plan for Day 4:
 - Solve a related array pattern (rotate, reverse segments)
 - DBMS ER diagram walkthrough
+
