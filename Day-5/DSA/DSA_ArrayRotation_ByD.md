@@ -1,5 +1,3 @@
-
-```md
 # 🔄 Array Rotation by D – Clockwise
 
 ## ✅ Problem Statement
@@ -36,3 +34,4 @@ function reverseArray3(arr,d) {
     return arr.reverse()
     
 }
+
