@@ -1,4 +1,3 @@
-```md
 # 🧠 DBMS Tier Architecture – Day 5
 
 ## ✅ Two-Tier Architecture
@@ -21,4 +20,5 @@
 | **Database Server** | Manages actual data storage |
 
 ➡️ Scalable, secure, ideal for enterprise apps.
+
 
