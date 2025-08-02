@@ -1,8 +1,3 @@
-
----
-
-### 💻 `Computer_Basics_Test.md`
-```md
 # 🧠 Computer Basics Test – Review
 
 ## ✅ Topics Tested:
@@ -15,3 +10,4 @@
 ## 📊 Reflection:
 - Strong grasp on hardware components
 - Need to revise some tooling questions (difference between NPM and Yarn)
+
