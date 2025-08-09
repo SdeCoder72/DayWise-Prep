@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Event: onclick</title>
+</head>
+<body>
+
+    <!-- Event Types -->
+    <!-- Mouse Events: click, dblclick, mousemove, mouseover, mouseout
+    Keyboard Events: keydown, keypress, keyup
+    Form Events: submit, change, focus, blur
+    Window Events: load, resize, scroll -->
+
+
+    <button onclick="myFun()">Click Me</button>
+    <p id="demo"></p>
+
+    <script>
+        function myFun() {
+            document.getElementById('demo').innerHTML = "This is a Paragraph generated using onclick event.";
+            alert('button clicked!');
+        } 
+    </script>
+
+
+</body>
+</html>

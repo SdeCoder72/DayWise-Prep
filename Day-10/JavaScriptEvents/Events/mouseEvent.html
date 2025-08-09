@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mouse Event</title>
+    <style>
+        body {
+            background-color: #414141;
+        }
+        .box {
+            width: 150px;
+            height: 110px;
+            background-color: powderblue;
+            text-align: center;
+            margin: 20px;
+            font-weight: bold;
+            padding-top: 40px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="mousemove">item 1</div>
+        <div class="box" id="keydown">item 2</div>
+    </div>
+
+    <script>
+        document.getElementById('mousemove').addEventListener("mousemove", (e) => {
+            console.log(`Mouse moved to (${e.clientX})`);
+        }, false);
+        
+    </script>
+    
+</body>
+</html>
